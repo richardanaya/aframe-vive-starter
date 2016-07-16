@@ -1,12 +1,11 @@
 <html>
 <head>
-    <script src="aframe.js"></script>
-    <script src="aframe-webvr-controller.js"></script>
-    <script src="laser.js"></script>
+    <script src="lib/aframe.js"></script>
+    <script src="lib/aframe-webvr-controller.js"></script>
+    <script src="lib/laser.js"></script>
 </head>
 <body>
 <a-scene>
-
     <a-box id="table" position="0 0 0" width="2" depth="2" height=".1" color="#333333" roughness="0.8">
       <!--controller 0 button 1 will change color-->
       <a-event name="raycaster-intersected-webvrcontroller0button1pressed" color="#FFC65D"></a-event>
